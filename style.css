@@ -198,8 +198,12 @@ form p {
     
 }
 
+.switch {
+    text-decoration: underline;
+}
 .switch-plans {
     margin-bottom: 1rem;
+    
 }
 
 .switch-plans p:not(:last-child) {
@@ -227,12 +231,12 @@ img {
     overflow: clip;
 }
 footer{
+
     text-align: center;
     font-family: 'Lato-REgular', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    position: relative;
-    width: 875px;
+    
 }
 .term {
     color: #636b6f;
