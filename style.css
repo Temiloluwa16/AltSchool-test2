@@ -21,6 +21,7 @@ nav {
     align-items: center;
     padding: 2rem 0;
 }
+
 .nav-links a {
     margin-right: 1.1rem;
     color: black;
@@ -37,8 +38,10 @@ nav div button {
 main {
     border: 0px solid cyan;
 }
+
 .main-class {
-    padding: 2em;
+    /* border: 1px solid red; */
+    padding: 2rem;
     display: flex;
     justify-content: center;
     height: 85vh;
@@ -50,23 +53,28 @@ main {
 .left {
     background-color: white;
     padding: 4rem;
+  
+    
 }
+
 .right {
     padding: 2rem;
     background-color: #1179bf;
     color: white;
+    
 }
+
 .header {
     font-size: 1.8rem;
     margin-bottom: 1rem;
 }
+
 hr {
     margin-bottom: 1rem;
 }
 
 .one {
     display: flex;
-
     align-items: center;
     gap: .7rem;
     margin-bottom: 1rem;
@@ -88,9 +96,10 @@ hr {
     margin-bottom: 1rem;
 }
 
-.first-name {
+.first-name input {
     width: 220px;
 }
+
 .last-name input {
     width: 220px;
 }
@@ -102,15 +111,18 @@ hr {
 h5 {
     margin-bottom: .3rem;
 }
+
 .email {
     margin-bottom: 1.5rem;
 }
+
 .two {
     display: flex;
     align-items: center;
     gap: .7rem;
     margin-bottom: 1rem;
 }
+
 .two button {
     width: 35px;
     height: 35px;
@@ -120,18 +132,87 @@ h5 {
     font-size: 1rem;
     color: blue;
 }
+
 .credit-card {
     margin-bottom: 2rem;
 }
+
 .credit-card input {
-  width: 100%;
+    width: 100%;
 }
+
 .buy-wp {
     width: 100%;
     color: white;
-    background-color: #038e7d;
+    background-color: rgb(4, 115, 4);
     padding: 0.9rem 0rem;
     border: 0;
     border-radius: 5px;
     margin-bottom: 1.5rem;
+}
+
+input {
+    padding: .5rem 0.3rem;
+}
+
+.contact {
+    text-decoration: underline;
+}
+
+form p {
+    text-align: center;
+}
+
+.right-inner h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.subscription {
+    display: flex;
+    gap: .4rem;
+    margin-bottom: 0.8rem;
+}
+
+.subscription h1 span {
+    font-size: 0.8rem;
+}
+
+.renew {
+    max-width: 200px;
+    margin-bottom: 1.4rem;
+}
+
+.reviews p {
+    max-width: 200px;
+    margin-bottom: 1rem;
+    
+}
+
+.switch-plans {
+    margin-bottom: 1rem;
+}
+
+.switch-plans p:not(:last-child) {
+    margin-bottom: .8rem;
+}
+
+.features {
+    margin-bottom: 2rem;
+}
+
+.features div {
+    margin-bottom: .8rem;
+}
+.bitman {
+width: 40px;
+height: 40px;
+}
+.profile {
+ display: flex;
+ gap: 1.5rem;   
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
