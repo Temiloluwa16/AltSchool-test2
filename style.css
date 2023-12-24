@@ -163,7 +163,9 @@ input {
 input {
     padding: .5rem 0.3rem;
 }
-
+hr {
+    opacity: 0.2;
+}
 .contact {
     text-decoration: underline;
 }
