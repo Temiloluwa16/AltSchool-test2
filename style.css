@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    border-bottom: 1px solid grey;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+.nav-links a {
+    margin-right: 1.1rem;
+    color: black;
+}
+
+nav div button {
+    padding: 0.5rem 1.1rem;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+main {
+    border: 0px solid cyan;
+}
