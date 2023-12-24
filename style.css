@@ -37,3 +37,22 @@ nav div button {
 main {
     border: 0px solid cyan;
 }
+.main-class {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    filter: drop-shadow(0px 0px 6px #a6a6a6);
+    -webkit-filter: drop-shadow(0px 0px 6px #a6a6a6);
+    -moz-filter: drop-shadow(0px 0px 6px #a6a6a6);
+}
+
+.left {
+    background-color: white;
+    padding: 4rem;
+}
+.right {
+    padding: 2rem;
+    background-color: #1179bf;
+    color: white;
+}
