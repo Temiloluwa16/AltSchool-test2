@@ -215,10 +215,14 @@ form p {
 .features {
     margin-bottom: 2rem;
     line-height: 24px;
+    
 }
 
 .features div {
     margin-bottom: .8rem;
+    display: flex;
+    align-content: center;
+    gap: 0.7rem;
 }
 .bitman {
 width: 40px;
@@ -228,9 +232,11 @@ height: 40px;
  display: flex;
  gap: 1.5rem;   
 }
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
+
+.icon {
+    width: 20px;
+    height: 20px;
+
 }
 footer{
 
